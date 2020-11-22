@@ -7,6 +7,7 @@ import Date from '../components/date'
 
 export default function Home({allPostsData}) {
   return (
+    // @ts-ignore
     <Layout home>
       <Head>
         <title>{siteTitle}</title>

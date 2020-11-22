@@ -6,6 +6,7 @@ import utilStyles from '../../styles/utils.module.css'
 
 export default function Post({ postData }) {
   return (
+    // @ts-ignore
     <Layout>
       <Head>
         <title>{postData.title}</title>
